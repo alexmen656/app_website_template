@@ -14,54 +14,15 @@
     </section>
     <section class="iphone-section">
       <div class="feature-cards-left" v-if="!mobile">
-        <div class="feature-card card-float-1">
+        <div class="feature-card" :class="'card-float-' + String(Number(index) + 1)"
+          v-for="(card, index) in config.featureCardsLeft" :key="'left-' + index">
           <div class="card-connector connector-left"></div>
-          <div class="feature-card-icon icon-avatar">
-            <span>👩</span>
+          <div class="feature-card-icon" :class="card.iconClass">
+            <span>{{ card.icon }}</span>
           </div>
           <div class="feature-card-content">
-            <div class="feature-card-title">Card saved: BILLA</div>
-            <div class="feature-card-subtitle">Barcode saved — ready to scan</div>
-          </div>
-        </div>
-        <div class="feature-card card-float-2">
-          <div class="card-connector connector-left"></div>
-          <div class="feature-card-icon icon-blue">
-            <span>✈️</span>
-          </div>
-          <div class="feature-card-content">
-            <div class="feature-card-title"><strong>Barcode erkannt: Starbucks</strong></div>
-            <div class="feature-card-subtitle">Schnelles Hinzufügen per Scan</div>
-          </div>
-        </div>
-        <div class="feature-card card-float-3">
-          <div class="card-connector connector-left"></div>
-          <div class="feature-card-icon icon-coral">
-            <span>△</span>
-          </div>
-          <div class="feature-card-content">
-            <div class="feature-card-title">Points updated</div>
-            <div class="feature-card-subtitle">Deine Punkte wurden automatisch synchronisiert</div>
-          </div>
-        </div>
-        <div class="feature-card card-float-4">
-          <div class="card-connector connector-left"></div>
-          <div class="feature-card-icon icon-green">
-            <span>✓</span>
-          </div>
-          <div class="feature-card-content">
-            <div class="feature-card-title"><strong>Reward redeemed</strong></div>
-            <div class="feature-card-subtitle">Reward redeemed — tracked</div>
-          </div>
-        </div>
-        <div class="feature-card card-float-5">
-          <div class="card-connector connector-left"></div>
-          <div class="feature-card-icon icon-yellow">
-            <span>🧳 6</span>
-          </div>
-          <div class="feature-card-content">
-            <div class="feature-card-title"><strong>Multiple cards</strong></div>
-            <div class="feature-card-subtitle">Organize cards by category</div>
+            <div class="feature-card-title" v-html="card.title"></div>
+            <div class="feature-card-subtitle">{{ card.subtitle }}</div>
           </div>
         </div>
       </div>

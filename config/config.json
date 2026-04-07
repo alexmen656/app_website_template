@@ -20,6 +20,70 @@
     { "platform": "tiktok", "link": "https://tiktok.com" },
     { "platform": "x", "link": "https://x.com" }
   ],
+  "featureCardsLeft": [
+    {
+      "icon": "👩",
+      "iconClass": "icon-avatar",
+      "title": "Card saved: BILLA",
+      "subtitle": "Barcode saved — ready to scan"
+    },
+    {
+      "icon": "✈️",
+      "iconClass": "icon-blue",
+      "title": "<strong>Barcode erkannt: Starbucks</strong>",
+      "subtitle": "Schnelles Hinzufügen per Scan"
+    },
+    {
+      "icon": "△",
+      "iconClass": "icon-coral",
+      "title": "Points updated",
+      "subtitle": "Deine Punkte wurden automatisch synchronisiert"
+    },
+    {
+      "icon": "✓",
+      "iconClass": "icon-green",
+      "title": "<strong>Reward redeemed</strong>",
+      "subtitle": "Reward redeemed — tracked"
+    },
+    {
+      "icon": "🧳 6",
+      "iconClass": "icon-yellow",
+      "title": "<strong>Multiple cards</strong>",
+      "subtitle": "Organize cards by category"
+    }
+  ],
+  "featureCardsRight": [
+    {
+      "icon": "🚪",
+      "iconClass": "icon-brown",
+      "title": "<strong>Card shared</strong>",
+      "subtitle": "Secure sharing via QR or link"
+    },
+    {
+      "icon": "☀️",
+      "iconClass": "icon-yellow-soft",
+      "title": "Bright screen mode",
+      "subtitle": "Maximize display brightness for scanning"
+    },
+    {
+      "icon": "➚",
+      "iconClass": "icon-orange",
+      "title": "<strong>Widgets & quick access</strong>",
+      "subtitle": "Quick access to your favorite cards"
+    },
+    {
+      "icon": "↻",
+      "iconClass": "icon-gray-light",
+      "title": "iCloud Sync",
+      "subtitle": "Sync across your devices"
+    },
+    {
+      "icon": "🧳",
+      "iconClass": "icon-yellow-soft",
+      "title": "<strong>Available offline</strong>",
+      "subtitle": "Access without internet — stored locally"
+    }
+  ],
   "feature_detail": {
     "title": "Share your data with<br />friends and family.",
     "description": "With the sharing feature, you can instantly share your information with your loved ones, ensuring they are always up to date. Add your contacts once and share automatically – with no manual effort required."
