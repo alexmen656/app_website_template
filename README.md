@@ -21,9 +21,11 @@ public/assets/branding/  ← INTERNAL (don't touch)
   app_store.svg          ← App Store download badge
   google_play.svg        ← Google Play download badge
 
-src/                     ← DON'T TOUCH (source code)
+index.html               ← Set your app name in the <title> tag
 public/
   favicon.ico            ← Replace with your favicon
+
+src/                     ← DON'T TOUCH (source code)
 ```
 
 ### config.json — complete field reference
