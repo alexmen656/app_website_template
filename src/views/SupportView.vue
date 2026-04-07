@@ -61,7 +61,7 @@
                     </div>
                     <h3 class="contact-title">Still need help?</h3>
                     <p class="contact-description">Can't find what you're looking for? We're here to help.</p>
-                    <a href="mailto:support@pocketz.app" class="contact-button">Contact Support</a>
+                    <a :href="'mailto:' + config.supportEmail" class="contact-button">Contact Support</a>
                 </div>
             </div>
         </section>
