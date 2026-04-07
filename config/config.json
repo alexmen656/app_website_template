@@ -33,27 +33,27 @@
   "showcase_title": "Learn the App know.",
   "feature_list": [
     {
-      "icon": "/src/config/assets/iphone.png",
+      "icon": "/assets/iphone.png",
       "title": "Productivity",
       "description": "All in one place.<br />Always at hand."
     },
     {
-      "icon": "/src/config/assets/iphone.png",
+      "icon": "/assets/iphone.png",
       "title": "Organization",
       "description": "Smartly sorted.<br />Automatically organized."
     },
     {
-      "icon": "/src/config/assets/iphone.png",
+      "icon": "/assets/iphone.png",
       "title": "Privacy",
       "description": "Private and secure.<br />From the start."
     },
     {
-      "icon": "/src/config/assets/iphone.png",
+      "icon": "/assets/iphone.png",
       "title": "Synchronization",
       "description": "Always with you.<br />On all devices."
     },
     {
-      "icon": "/src/config/assets/iphone.png",
+      "icon": "/assets/iphone.png",
       "title": "Search",
       "description": "Find in a flash.<br />Never search again."
     }

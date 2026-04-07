@@ -71,11 +71,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, inject } from 'vue';
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
-import config from '../../config/config.json';
 
+const config: any = inject('config');
 const updatesData = ref(config.updatesView);
 </script>
 
