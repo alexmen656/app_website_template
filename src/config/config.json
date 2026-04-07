@@ -1,0 +1,872 @@
+{
+  "appName": "Pocketz",
+  "appIcon": "256.png",
+  "ctaButtonText": "Download",
+  "iosLink": "https://apple.com",
+  "androidLink": "https://google.com",
+  "headline": "Your digital wallet,<br /> supercharged and secure",
+  "description": "Pocketz keeps all your loyalty cards organized and ready to scan. Lightweight,<br />intuitive, works offline, and private by design.",
+  "links": [
+    { "name": "Support", "href": "/support" },
+    { "name": "Blog", "href": "/blog" },
+    { "name": "Updates", "href": "/updates" }
+  ],
+  "copyrightCompany": "Alex Polan",
+  "appStoreLink": "https://apple.com",
+  "googlePlayLink": "https://google.com",
+  "socialLinks": [
+    { "platform": "instagram", "link": "https://instagram.com" },
+    { "platform": "facebook", "link": "https://faceebook.com" },
+    { "platform": "tiktok", "link": "https://tiktok.com" },
+    { "platform": "x", "link": "https://x.com" }
+  ],
+  "feature_detail": {
+    "title": "Share your data with<br />friends and family.",
+    "description": "With the sharing feature, you can instantly share your information with your loved ones, ensuring they are always up to date. Add your contacts once and share automatically – with no manual effort required."
+  },
+  "feature_highlight": {
+    "image1": "/assets/iphone.png",
+    "image2": "/assets/iphone.png",
+    "title": "Never hear \"Can you send me the info?\" again.",
+    "description": "Choose who you want to share with. Your contacts can then decide for themselves which notifications they want to receive (e.g., for updates, changes, and more)."
+  },
+  "showcase_title": "Learn the App know.",
+  "feature_list": [
+    {
+      "icon": "/src/config/assets/iphone.png",
+      "title": "Productivity",
+      "description": "All in one place.<br />Always at hand."
+    },
+    {
+      "icon": "/src/config/assets/iphone.png",
+      "title": "Organization",
+      "description": "Smartly sorted.<br />Automatically organized."
+    },
+    {
+      "icon": "/src/config/assets/iphone.png",
+      "title": "Privacy",
+      "description": "Private and secure.<br />From the start."
+    },
+    {
+      "icon": "/src/config/assets/iphone.png",
+      "title": "Synchronization",
+      "description": "Always with you.<br />On all devices."
+    },
+    {
+      "icon": "/src/config/assets/iphone.png",
+      "title": "Search",
+      "description": "Find in a flash.<br />Never search again."
+    }
+  ],
+  "supportCards": [
+    {
+      "title": "Explore Paste",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"8\" y=\"12\" width=\"32\" height=\"22\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"2\" /><path d=\"M8 18h32M16 34h16\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" /></svg>"
+    },
+    {
+      "title": "Paste on Mac",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"8\" y=\"12\" width=\"32\" height=\"22\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"2\" /><path d=\"M8 18h32M16 34h16\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" /></svg>"
+    },
+    {
+      "title": "Paste on iPhone",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"16\" y=\"8\" width=\"16\" height=\"32\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"2\" /><circle cx=\"24\" cy=\"36\" r=\"1.5\" fill=\"currentColor\" /></svg>"
+    },
+    {
+      "title": "Paste on iPad",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"12\" y=\"10\" width=\"24\" height=\"28\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"2\" /><circle cx=\"24\" cy=\"34\" r=\"1.5\" fill=\"currentColor\" /></svg>"
+    }
+  ],
+  "supportTitle": "How can we help?",
+  "supportSearchPlaceholder": "Search for a topic or question",
+  "supportSectionTitle": "Getting started",
+  "supportCategories2": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "description": "Learn the basics of adding and using your loyalty cards.",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M12 8h24a4 4 0 014 4v24a4 4 0 01-4 4H12a4 4 0 01-4-4V12a4 4 0 014-4z\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M16 20l6 6 10-10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "id": "cards-barcodes",
+      "title": "Cards & Barcodes",
+      "description": "Everything about scanning, displaying, and managing barcodes.",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"8\" y=\"14\" width=\"32\" height=\"20\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M14 20v8M18 20v8M24 20v8M28 20v8M34 20v8\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "sharing",
+      "title": "Sharing & Family",
+      "description": "Share cards with family and friends.",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><circle cx=\"18\" cy=\"18\" r=\"6\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"18\" r=\"6\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M6 40c0-6.627 5.373-12 12-12h12c6.627 0 12 5.373 12 12\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "widgets",
+      "title": "Widgets & Quick Access",
+      "description": "Home Screen, Lock Screen, and Apple Watch.",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"8\" y=\"8\" width=\"14\" height=\"14\" rx=\"3\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"26\" y=\"8\" width=\"14\" height=\"14\" rx=\"3\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"8\" y=\"26\" width=\"14\" height=\"14\" rx=\"3\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"26\" y=\"26\" width=\"14\" height=\"14\" rx=\"3\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>"
+    },
+    {
+      "id": "privacy-security",
+      "title": "Privacy & Security",
+      "description": "Data protection, Face ID, and backups.",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M24 4L8 12v12c0 11 7 18 16 20 9-2 16-9 16-20V12L24 4z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M18 24l4 4 8-8\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "description": "Solutions for common issues and questions.",
+      "icon": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\"><circle cx=\"24\" cy=\"24\" r=\"18\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M24 32v.01M24 16v10\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>"
+    }
+  ],
+  "supportCategories": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started with Pocketz",
+      "articles": [
+        {
+          "id": "add-first-card",
+          "title": "Add your first loyalty card",
+          "description": "Learn how to scan or manually add loyalty cards to your wallet.",
+          "intro": "Adding loyalty cards to Pocketz is quick and easy. You can either scan the barcode directly or enter the card details manually.",
+          "sections": [
+            {
+              "heading": "Scan a barcode",
+              "content": "To scan a loyalty card, tap the <strong>+</strong> button in the top right corner and select <strong>Scan Barcode</strong>. Point your camera at the barcode on your physical card. Pocketz will automatically detect and save the barcode."
+            },
+            {
+              "heading": "Manual entry",
+              "content": "If scanning doesn't work, you can manually enter the card number. Tap <strong>Enter Manually</strong> and type in the number found below the barcode on your card."
+            },
+            {
+              "heading": "Customize your card",
+              "content": "After adding a card, you can customize it by adding a name, choosing a color, or adding the store logo. Tap on the card and select <strong>Edit</strong> to make changes."
+            }
+          ]
+        },
+        {
+          "id": "organize-cards",
+          "title": "Organize your cards",
+          "description": "Create folders, reorder cards, and keep your wallet tidy.",
+          "intro": "Keep your loyalty cards organized so you can find them quickly at checkout.",
+          "sections": [
+            {
+              "heading": "Create folders",
+              "content": "Group related cards into folders. Long-press on a card and select <strong>Move to Folder</strong>. You can create folders like \"Groceries\", \"Fashion\", or \"Restaurants\"."
+            },
+            {
+              "heading": "Reorder cards",
+              "content": "Drag and drop cards to reorder them. Your most-used cards can be placed at the top for quick access."
+            },
+            {
+              "heading": "Favorites",
+              "content": "Mark frequently used cards as favorites by tapping the star icon. Favorite cards appear in a special section at the top of your wallet."
+            }
+          ]
+        },
+        {
+          "id": "use-at-checkout",
+          "title": "Use cards at checkout",
+          "description": "How to show your barcode to the cashier for scanning.",
+          "intro": "Using your digital loyalty cards at the store is even easier than carrying physical cards.",
+          "sections": [
+            {
+              "heading": "Display your barcode",
+              "content": "Tap on a card to open it in full screen. The barcode will be displayed large and clear for the cashier to scan."
+            },
+            {
+              "heading": "Brightness boost",
+              "content": "Pocketz automatically increases your screen brightness when displaying a barcode, making it easier to scan even in bright store lighting."
+            },
+            {
+              "heading": "Works offline",
+              "content": "All your cards are stored locally on your device. You can access and use them even without an internet connection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cards-barcodes",
+      "title": "Cards & Barcodes",
+      "articles": [
+        {
+          "id": "supported-barcodes",
+          "title": "Supported barcode types",
+          "description": "Learn which barcode formats Pocketz can read and display.",
+          "intro": "Pocketz supports all common barcode formats used by loyalty programs worldwide.",
+          "sections": [
+            {
+              "heading": "Supported formats",
+              "content": "Pocketz can read and display the following barcode types:",
+              "list": [
+                "EAN-13 and EAN-8 (European Article Number)",
+                "UPC-A and UPC-E (Universal Product Code)",
+                "Code 128 and Code 39",
+                "QR Codes",
+                "PDF417",
+                "Aztec Codes",
+                "Data Matrix"
+              ]
+            },
+            {
+              "heading": "Automatic detection",
+              "content": "When you scan a barcode, Pocketz automatically detects the format and stores it correctly. You don't need to know the barcode type."
+            }
+          ]
+        },
+        {
+          "id": "scan-issues",
+          "title": "Troubleshooting scan issues",
+          "description": "What to do when a barcode won't scan properly.",
+          "intro": "Having trouble scanning a barcode? Here are some tips to help.",
+          "sections": [
+            {
+              "heading": "Improve scanning conditions",
+              "content": "Make sure the barcode is well-lit and your camera lens is clean. Hold your phone steady about 6-8 inches from the barcode."
+            },
+            {
+              "heading": "Try different angles",
+              "content": "If the barcode is reflective or on a curved surface, try tilting your phone slightly to reduce glare."
+            },
+            {
+              "heading": "Use manual entry",
+              "content": "If scanning continues to fail, you can always enter the card number manually. The number is usually printed below the barcode."
+            }
+          ]
+        },
+        {
+          "id": "edit-card",
+          "title": "Edit card details",
+          "description": "Change the name, color, or barcode of an existing card.",
+          "intro": "Customize your cards to make them easier to identify and use.",
+          "sections": [
+            {
+              "heading": "Edit card information",
+              "content": "Tap on a card, then tap the <strong>Edit</strong> button (pencil icon) in the top right. You can change the card name, store name, and notes."
+            },
+            {
+              "heading": "Change card color",
+              "content": "In edit mode, tap on the color picker to choose a new background color for your card. Match it to the store's branding for easy recognition."
+            },
+            {
+              "heading": "Update barcode",
+              "content": "If you received a new card with a different barcode, tap <strong>Re-scan Barcode</strong> to update it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Sharing & Family",
+      "articles": [
+        {
+          "id": "share-card",
+          "title": "Share a card with someone",
+          "description": "Send a copy of your loyalty card to family or friends.",
+          "intro": "Easily share your loyalty cards with family members so everyone can earn points on the same account.",
+          "sections": [
+            {
+              "heading": "Share a card",
+              "content": "Tap on a card, then tap the <strong>Share</strong> button. Choose how you want to share: AirDrop, Messages, Email, or generate a QR code."
+            },
+            {
+              "heading": "QR code sharing",
+              "content": "The recipient can scan the QR code with their Pocketz app to instantly add the card to their wallet."
+            },
+            {
+              "heading": "Privacy note",
+              "content": "When you share a card, only the barcode and card name are shared. No personal account information is transmitted."
+            }
+          ]
+        },
+        {
+          "id": "family-sharing",
+          "title": "Family sharing setup",
+          "description": "Set up automatic card sharing with family members.",
+          "intro": "With Family Sharing, all household members can access shared loyalty cards automatically.",
+          "sections": [
+            {
+              "heading": "Enable Family Sharing",
+              "content": "Go to <strong>Settings → Family Sharing</strong> and tap <strong>Set Up Family Sharing</strong>. Invite family members using their email or phone number."
+            },
+            {
+              "heading": "Choose cards to share",
+              "content": "After setting up, you can choose which cards to share with the family. Shared cards appear with a family icon."
+            },
+            {
+              "heading": "Manage permissions",
+              "content": "As the family organizer, you can control who can add new shared cards and who can only use existing ones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "widgets",
+      "title": "Widgets & Quick Access",
+      "articles": [
+        {
+          "id": "home-widgets",
+          "title": "Add widgets to your Home Screen",
+          "description": "Access your favorite cards with a single tap.",
+          "intro": "Pocketz widgets let you access your most-used loyalty cards directly from your Home Screen.",
+          "sections": [
+            {
+              "heading": "Add a widget",
+              "content": "Long-press on your Home Screen and tap the <strong>+</strong> button in the top corner. Search for \"Pocketz\" and choose your preferred widget size."
+            },
+            {
+              "heading": "Widget sizes",
+              "content": "Pocketz offers small (single card), medium (up to 3 cards), and large (up to 6 cards) widgets. Choose based on how many quick-access cards you need."
+            },
+            {
+              "heading": "Configure widget",
+              "content": "After adding, long-press the widget and select <strong>Edit Widget</strong> to choose which cards to display."
+            }
+          ]
+        },
+        {
+          "id": "lock-screen",
+          "title": "Lock Screen widgets",
+          "description": "Show a card on your Lock Screen for instant access.",
+          "intro": "With iOS 16 and later, you can add Pocketz widgets to your Lock Screen.",
+          "sections": [
+            {
+              "heading": "Add Lock Screen widget",
+              "content": "Long-press your Lock Screen, tap <strong>Customize</strong>, and add a Pocketz widget to the widget area below the time."
+            },
+            {
+              "heading": "Quick launch",
+              "content": "Tapping the Lock Screen widget opens Pocketz directly to that card, ready for scanning."
+            }
+          ]
+        },
+        {
+          "id": "apple-watch",
+          "title": "Pocketz on Apple Watch",
+          "description": "Access your cards from your wrist.",
+          "intro": "The Pocketz Apple Watch app lets you show barcodes right on your wrist.",
+          "sections": [
+            {
+              "heading": "Install on Apple Watch",
+              "content": "Open the Watch app on your iPhone, scroll to Pocketz, and tap <strong>Install</strong>."
+            },
+            {
+              "heading": "Sync cards",
+              "content": "Your cards automatically sync to your Apple Watch. You can choose which cards to sync in the Pocketz settings."
+            },
+            {
+              "heading": "Use at checkout",
+              "content": "Open Pocketz on your watch, select a card, and hold your wrist up to the scanner. The watch screen is bright enough for most scanners."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-security",
+      "title": "Privacy & Security",
+      "articles": [
+        {
+          "id": "data-privacy",
+          "title": "How we protect your data",
+          "description": "Learn about our privacy-first approach.",
+          "intro": "Your privacy is our top priority. Pocketz is designed to keep your data safe and private.",
+          "sections": [
+            {
+              "heading": "Local storage",
+              "content": "All your loyalty cards are stored locally on your device. We don't upload your card data to any servers."
+            },
+            {
+              "heading": "No tracking",
+              "content": "Pocketz doesn't track your location, purchases, or store visits. We don't sell your data to anyone."
+            },
+            {
+              "heading": "iCloud sync",
+              "content": "If you enable iCloud sync, your cards are encrypted and synced through your personal iCloud account. Only you can access them."
+            }
+          ]
+        },
+        {
+          "id": "face-id",
+          "title": "Protect app with Face ID",
+          "description": "Add an extra layer of security with biometric authentication.",
+          "intro": "Lock Pocketz with Face ID or Touch ID to prevent unauthorized access.",
+          "sections": [
+            {
+              "heading": "Enable Face ID",
+              "content": "Go to <strong>Settings → Security</strong> and toggle on <strong>Require Face ID</strong>. You'll need to authenticate each time you open the app."
+            },
+            {
+              "heading": "App Lock timeout",
+              "content": "Choose how quickly the app locks: immediately, after 1 minute, or after 5 minutes of inactivity."
+            }
+          ]
+        },
+        {
+          "id": "backup-restore",
+          "title": "Backup and restore cards",
+          "description": "Never lose your cards when switching devices.",
+          "intro": "Keep your loyalty cards safe with automatic backups.",
+          "sections": [
+            {
+              "heading": "iCloud Backup",
+              "content": "Enable <strong>iCloud Sync</strong> in settings to automatically backup your cards. They'll be restored when you sign in on a new device."
+            },
+            {
+              "heading": "Manual export",
+              "content": "You can also export your cards as a backup file. Go to <strong>Settings → Export Data</strong> to create a backup."
+            },
+            {
+              "heading": "Restore from backup",
+              "content": "To restore, go to <strong>Settings → Import Data</strong> and select your backup file."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "articles": [
+        {
+          "id": "barcode-not-scanning",
+          "title": "Barcode won't scan at checkout",
+          "description": "What to do when the store scanner can't read your barcode.",
+          "intro": "Sometimes store scanners have trouble reading screen-displayed barcodes. Here's how to fix it.",
+          "sections": [
+            {
+              "heading": "Increase screen brightness",
+              "content": "Tap the brightness icon in Pocketz to maximize your screen brightness. This usually solves most scanning issues."
+            },
+            {
+              "heading": "Clean your screen",
+              "content": "Smudges and fingerprints can interfere with barcode scanning. Wipe your screen clean before presenting it."
+            },
+            {
+              "heading": "Hold steady",
+              "content": "Keep your phone still and at the right distance from the scanner (usually 3-6 inches)."
+            },
+            {
+              "heading": "Try manual entry",
+              "content": "If scanning still fails, ask the cashier to manually enter the card number. You can tap \"Show Number\" in Pocketz to display it."
+            }
+          ]
+        },
+        {
+          "id": "cards-not-syncing",
+          "title": "Cards not syncing between devices",
+          "description": "Troubleshoot iCloud sync issues.",
+          "intro": "If your cards aren't appearing on all your devices, try these steps.",
+          "sections": [
+            {
+              "heading": "Check iCloud status",
+              "content": "Go to <strong>Settings → Apple ID → iCloud</strong> and make sure Pocketz is enabled for iCloud."
+            },
+            {
+              "heading": "Same Apple ID",
+              "content": "Ensure all devices are signed in with the same Apple ID."
+            },
+            {
+              "heading": "Force sync",
+              "content": "In Pocketz settings, tap <strong>Sync Now</strong> to manually trigger a sync."
+            },
+            {
+              "heading": "Check internet connection",
+              "content": "iCloud sync requires an internet connection. Make sure you're connected to Wi-Fi or cellular data."
+            }
+          ]
+        },
+        {
+          "id": "app-crashes",
+          "title": "App crashes or freezes",
+          "description": "Steps to resolve app stability issues.",
+          "intro": "If Pocketz is crashing or freezing, try these troubleshooting steps.",
+          "sections": [
+            {
+              "heading": "Force quit and restart",
+              "content": "Swipe up from the bottom of your screen (or double-click the home button), then swipe away Pocketz. Reopen the app."
+            },
+            {
+              "heading": "Update the app",
+              "content": "Make sure you have the latest version of Pocketz. Open the App Store and check for updates."
+            },
+            {
+              "heading": "Restart your device",
+              "content": "Sometimes a device restart can fix persistent issues. Turn your iPhone off and back on."
+            },
+            {
+              "heading": "Contact support",
+              "content": "If the issue persists, contact us at support@pocketz.app with details about what happened."
+            }
+          ]
+        },
+        {
+          "id": "deleted-card",
+          "title": "Accidentally deleted a card",
+          "description": "How to recover a deleted loyalty card.",
+          "intro": "Don't worry! Deleted cards can often be recovered.",
+          "sections": [
+            {
+              "heading": "Recently Deleted",
+              "content": "Pocketz keeps deleted cards for 30 days. Go to <strong>Settings → Recently Deleted</strong> to recover them."
+            },
+            {
+              "heading": "iCloud backup",
+              "content": "If you have iCloud sync enabled, your cards may be recoverable from your iCloud backup."
+            },
+            {
+              "heading": "Re-scan the card",
+              "content": "If you still have the physical card, you can always scan it again to add it back."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "popularArticles": [
+    {
+      "id": "add-first-card",
+      "categoryId": "getting-started",
+      "category": "Getting Started",
+      "title": "Add your first loyalty card"
+    },
+    {
+      "id": "use-at-checkout",
+      "categoryId": "getting-started",
+      "category": "Getting Started",
+      "title": "Use cards at checkout"
+    },
+    {
+      "id": "home-widgets",
+      "categoryId": "widgets",
+      "category": "Widgets",
+      "title": "Add widgets to your Home Screen"
+    },
+    {
+      "id": "share-card",
+      "categoryId": "sharing",
+      "category": "Sharing",
+      "title": "Share a card with someone"
+    },
+    {
+      "id": "data-privacy",
+      "categoryId": "privacy-security",
+      "category": "Privacy",
+      "title": "How we protect your data"
+    }
+  ],
+  "privacyPolicyEffectiveDate": "17. December 2024",
+  "termsOfUseEffectiveDate": "17. December 2024",
+  "updatesView": {
+    "hero": {
+      "title": "Was gibt's Neues?",
+      "description": "Alle Updates, neue Features und Verbesserungen auf einen Blick."
+    },
+    "releases": [
+      {
+        "isLatest": true,
+        "badge": "Neu",
+        "version": "Version 2.5",
+        "date": "November 2024",
+        "title": "Das bisher größte Update",
+        "description": "Wir haben komplett neu gedacht, wie du deine Daten organisierst. Mit dem neuen Dashboard behältst du alles im Blick – schneller, übersichtlicher und noch intuitiver.",
+        "features": [
+          {
+            "icon": "✨",
+            "title": "Neues Dashboard",
+            "description": "Alle wichtigen Infos auf einen Blick mit personalisierbaren Widgets."
+          },
+          {
+            "icon": "🚀",
+            "title": "Performance-Boost",
+            "description": "Bis zu 3x schnellere Ladezeiten durch optimierte Architektur."
+          },
+          {
+            "icon": "🎨",
+            "title": "Dark Mode",
+            "description": "Schone deine Augen mit dem neuen dunklen Design."
+          }
+        ],
+        "imageUrl": "/assets/iphone.png"
+      },
+      {
+        "isLatest": false,
+        "version": "Version 2.4",
+        "date": "Oktober 2024",
+        "title": "Teilen leicht gemacht",
+        "description": "Mit der neuen Teilen-Funktion kannst du deine Daten blitzschnell mit Freunden und Familie teilen. Keine komplizierten Einstellungen mehr.",
+        "changelog": [
+          "Neue Share-Funktion mit Kontakt-Synchronisation",
+          "Verbesserte Push-Benachrichtigungen",
+          "Bugfixes für iOS 18 Kompatibilität",
+          "Kleinere UI-Verbesserungen"
+        ]
+      },
+      {
+        "isLatest": false,
+        "version": "Version 2.3",
+        "date": "September 2024",
+        "title": "Widgets für deinen Homescreen",
+        "description": "Endlich sind sie da: Native Widgets für iOS und Android. Behalte deine wichtigsten Daten direkt auf dem Homescreen im Blick.",
+        "changelog": [
+          "3 neue Widget-Größen (klein, mittel, groß)",
+          "Anpassbare Widget-Inhalte",
+          "Live Activities Support für iPhone 14 Pro+",
+          "Neue Tastenkürzel für Power-User"
+        ]
+      },
+      {
+        "isLatest": false,
+        "version": "Version 2.2",
+        "date": "August 2024",
+        "title": "Smarte Suche",
+        "description": "Die neue intelligente Suche findet alles in Sekundenschnelle – egal ob Text, Bilder oder Dokumente.",
+        "changelog": [
+          "KI-gestützte Suchvorschläge",
+          "Filter nach Datum, Typ und Tags",
+          "Spotlight-Integration für iOS",
+          "Verbesserte Offline-Suche"
+        ]
+      },
+      {
+        "isLatest": false,
+        "version": "Version 2.1",
+        "date": "Juli 2024",
+        "title": "Cloud Sync",
+        "description": "Deine Daten, überall verfügbar. Mit dem neuen Cloud Sync synchronisierst du automatisch zwischen all deinen Geräten.",
+        "changelog": [
+          "iCloud & Google Drive Integration",
+          "Ende-zu-Ende-Verschlüsselung",
+          "Automatische Backups",
+          "Konfliktlösung bei gleichzeitiger Bearbeitung"
+        ]
+      },
+      {
+        "isLatest": false,
+        "version": "Version 2.0",
+        "date": "Juni 2024",
+        "title": "Der große Relaunch",
+        "description": "Komplett überarbeitetes Design, neue Features und eine noch bessere Performance. Willkommen in der Zukunft.",
+        "changelog": [
+          "Komplett neues UI Design",
+          "Neue App-Architektur für bessere Performance",
+          "iPad-optimierte Oberfläche",
+          "Über 50 Bugfixes und Verbesserungen"
+        ]
+      }
+    ],
+    "sidebar": {
+      "newsletter": {
+        "title": "Newsletter",
+        "description": "Erhalte Updates direkt in deine Inbox.",
+        "placeholder": "deine@email.com"
+      },
+      "quickAccess": {
+        "title": "Quick Access",
+        "links": [
+          { "version": "v2.5 – November 2024" },
+          { "version": "v2.4 – October 2024" },
+          { "version": "v2.3 – September 2024" },
+          { "version": "v2.2 – August 2024" },
+          { "version": "v2.1 – July 2024" },
+          { "version": "v2.0 – June 2024" }
+        ]
+      },
+      "cta": {
+        "title": "Not on board yet?",
+        "description": "Download the app now and experience all the features yourself.",
+        "buttonText": "Download App"
+      }
+    }
+  },
+  "reviews": {
+    "title": "What our users say.",
+    "reviews": [
+      {
+        "type": "tweet",
+        "avatar": "👨‍💻",
+        "name": "Max Mustermann",
+        "handle": "@maxmuster",
+        "texts": [
+          "Since I started using this app, my productivity has doubled. Finally, I have everything under control!",
+          "Clear recommendation for everyone who wants to stay organized. 🙌"
+        ]
+      },
+      {
+        "type": "testimonial",
+        "avatar": "👩",
+        "name": "Julia",
+        "handle": "Saved the day!",
+        "date": "Jan 31, 2023",
+        "text": "Last week I had an important appointment planned. Thanks to the app, I was reminded in time and could prepare everything. Without it, I would have forgotten!"
+      },
+      {
+        "type": "appstore",
+        "title": "Best App!",
+        "date": "Sep 7, 2024 • by AppFan123",
+        "stars": 5,
+        "text": "This app is simply incredible. It does exactly what it promises — and more. The user interface is beautifully designed, with a lot of attention to detail."
+      },
+      {
+        "type": "social",
+        "avatar": "🎬",
+        "name": "Tech Reviewer",
+        "handle": "@techreviews • 8h",
+        "videoCaption": "My new favorite app",
+        "socialStat": "+3 million users love this app",
+        "viewMoreBtn": true
+      },
+      {
+        "type": "tweet",
+        "avatar": "👨‍🎨",
+        "name": "Peter Schmidt",
+        "handle": "@peterschmidt",
+        "text": "One of the most thoughtful and well-implemented apps I've ever used."
+      },
+      {
+        "type": "appstore",
+        "title": "My favorite app on my phone",
+        "date": "Aug 20, 2024 • a.example",
+        "stars": 5,
+        "text": "It's like the old Apple motto: it just works. It does exactly what it's supposed to do, nothing more, and flawlessly. It's really my favorite app. Perfection."
+      },
+      {
+        "type": "tweet",
+        "avatar": "👩‍💼",
+        "name": "Anna Weber",
+        "handle": "@annaweber",
+        "text": "Finally an app that delivers on its promise! I use it every day. 💯"
+      }
+    ]
+  },
+  "footer": {
+    "section1": {
+      "title": "Product",
+      "links": [
+        { "name": "Try for Free", "href": "/try-for-free" },
+        { "name": "Get on Setapp", "href": "/get-on-setapp" },
+        { "name": "Use Cases", "href": "/use-cases" },
+        { "name": "Updates", "href": "/updates" },
+        { "name": "Pricing", "href": "/pricing" }
+      ]
+    },
+    "section3": {
+      "title": "More",
+      "links": [
+        { "name": "About", "href": "/about" },
+        { "name": "Contact", "href": "/contact" },
+        { "name": "Beta", "href": "/beta" },
+        { "name": "Suggest a feature", "href": "/suggest-feature" },
+        { "name": "Jobs", "href": "/jobs" }
+      ]
+    }
+  },
+  "blogView": {
+    "hero": {
+      "title": "Blog",
+      "description": "Tips, tricks, and insights about productivity and our app."
+    },
+    "featuredPost": {
+      "image": "/assets/iphone.png",
+      "category": "Productivity",
+      "date": "November 25, 2024",
+      "readTime": "5 min. read",
+      "title": "10 Tips for More Productivity in Daily Life",
+      "excerpt": "Discover proven strategies to make your day more efficient and get more out of your time. From morning routines to clever app tricks - we'll show you how it's done.",
+      "link": "#"
+    },
+    "posts": [
+      {
+        "image": "/assets/iphone.png",
+        "category": "Feature",
+        "date": "November 20, 2024",
+        "readTime": "3 min. read",
+        "title": "The New Widget Feature in Detail",
+        "excerpt": "Everything you need to know about our new homescreen widgets.",
+        "link": "#"
+      },
+      {
+        "image": "/assets/iphone.png",
+        "category": "Tutorial",
+        "date": "November 15, 2024",
+        "readTime": "4 min. read",
+        "title": "How to Set Up Cloud Sync",
+        "excerpt": "Step-by-step guide to setting up cloud synchronization.",
+        "link": "#"
+      },
+      {
+        "image": "/assets/iphone.png",
+        "category": "News",
+        "date": "10. November 2024",
+        "readTime": "2 Min. Lesezeit",
+        "title": "Wir sind App des Tages!",
+        "excerpt": "Apple hat uns im App Store als \"App des Tages\" ausgezeichnet. Danke an alle!",
+        "readMoreLink": "#"
+      },
+      {
+        "image": "/assets/iphone.png",
+        "category": "Tipps",
+        "date": "5. November 2024",
+        "readTime": "6 Min. Lesezeit",
+        "title": "Tastenkürzel für Power-User",
+        "excerpt": "Diese versteckten Shortcuts machen dich zum Profi.",
+        "readMoreLink": "#"
+      },
+      {
+        "image": "/assets/iphone.png",
+        "category": "Interview",
+        "date": "1. November 2024",
+        "readTime": "8 Min. Lesezeit",
+        "title": "Im Gespräch mit unserem Design-Team",
+        "excerpt": "Einblicke in den Designprozess hinter der neuen Benutzeroberfläche.",
+        "readMoreLink": "#"
+      },
+      {
+        "image": "/assets/iphone.png",
+        "category": "Tutorial",
+        "date": "28. Oktober 2024",
+        "readTime": "5 Min. Lesezeit",
+        "title": "Automatisierung mit Shortcuts",
+        "excerpt": "Verbinde unsere App mit iOS Shortcuts für maximale Effizienz.",
+        "readMoreLink": "#"
+      }
+    ],
+    "sidebar": {
+      "categories": {
+        "title": "Categories",
+        "items": [
+          { "name": "All Posts", "count": 24, "link": "#" },
+          { "name": "Productivity", "count": 8, "link": "#" },
+          { "name": "Tutorials", "count": 6, "link": "#" },
+          { "name": "Features", "count": 5, "link": "#" },
+          { "name": "News", "count": 3, "link": "#" },
+          { "name": "Interviews", "count": 2, "link": "#" }
+        ]
+      },
+      "newsletter": {
+        "title": "Newsletter",
+        "description": "New articles directly in your inbox.",
+        "placeholder": "your@email.com",
+        "buttonText": "Subscribe"
+      },
+      "popularPosts": {
+        "title": "Popular Articles",
+        "posts": [
+          { "number": "01", "title": "10 Tips for More Productivity", "link": "#" },
+          { "number": "02", "title": "The New Widget Feature", "link": "#" },
+          { "number": "03", "title": "Setting Up Cloud Sync", "link": "#" },
+          { "number": "04", "title": "Keyboard Shortcuts for Power Users", "link": "#" }
+        ]
+      },
+      "cta": {
+        "title": "Get Started Now",
+        "description": "Try all features for free.",
+        "buttonText": "Download App"
+      }
+    },
+    "loadMore": {
+      "buttonText": "Load More Articles"
+    }
+  }
+}
