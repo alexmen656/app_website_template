@@ -84,9 +84,9 @@
       </div>
     </section>
     <section class="dowload-section">
-      <button class="download-btn" @click="downloadOnAppStore()"><img height="100" src="/assets/app_store.svg"
+      <button class="download-btn" @click="downloadOnAppStore()"><img height="100" src="/assets/branding/app_store.svg"
           alt="Apple App Store Badge"></button>
-      <button class="download-btn" @click="downloadOnGooglePlay()"><img height="100" src="/assets/google_play.svg"
+      <button class="download-btn" @click="downloadOnGooglePlay()"><img height="100" src="/assets/branding/google_play.svg"
           alt="Google Play Store Badge"></button>
     </section>
     <section class="feature-showcase">

@@ -12,11 +12,14 @@ config/                  ← YOU EDIT THESE
   privacy-policy.html    ← Your privacy policy (plain HTML)
   terms-of-use.html      ← Your terms of use (plain HTML)
 
-public/assets/           ← YOUR IMAGES
+public/assets/           ← YOUR IMAGES (replace these)
   logo.svg               ← App logo (used in header & footer)
   256.png                ← App icon
-  iphone.png             ← Hero/feature screenshot(s)
-  app_store.svg          ← Keep as-is or replace with your badge
+  iphone.png             ← iPhone mockup / app screenshot(s)
+
+public/assets/branding/  ← INTERNAL (don't touch)
+  app_store.svg          ← App Store download badge
+  google_play.svg        ← Google Play download badge
 
 src/                     ← DON'T TOUCH (source code)
 public/
