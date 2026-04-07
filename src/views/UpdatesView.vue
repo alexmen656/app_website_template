@@ -74,7 +74,7 @@
 import { ref } from 'vue';
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
-import config from '../config/config.json';
+import config from '../../config/config.json';
 
 const updatesData = ref(config.updatesView);
 </script>

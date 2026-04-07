@@ -1,8 +1,41 @@
-# Website for Pocketz App (Site Generator)
+# App Website Template
 
-Site Generator is a website builder where you can configure all texts and images in the `config.json` file. At the moment, it is primarily a website for Pocketz (pocketz.app), but I plan to add a CMS later to make it easily editable and reusable.
+A reusable website template for app landing pages. All content is driven by a single config file — no source code changes needed.
 
-As already said this should have been more of a general template for my app websites, therefor many data in blog and updates are jsut some mock data from config.json and not directly conenctd to Pocketz (I Focused more on designing and building the website than writing blog posts lol)
+## Getting started
+
+**Edit only the files in `config/` — everything else is source code and should not be touched.**
+
+```
+config/                  ← YOU EDIT THESE
+  config.json            ← App name, links, texts, features, reviews, support articles, blog posts
+  privacy-policy.html    ← Your privacy policy (plain HTML)
+  terms-of-use.html      ← Your terms of use (plain HTML)
+
+public/assets/           ← YOUR IMAGES
+  logo.svg               ← App logo (used in header & footer)
+  256.png                ← App icon
+  iphone.png             ← Hero/feature screenshot(s)
+  app_store.svg          ← Keep as-is or replace with your badge
+
+src/                     ← DON'T TOUCH (source code)
+public/
+  favicon.ico            ← Replace with your favicon
+```
+
+### config.json — key fields
+
+| Field                                                    | Description                        |
+| -------------------------------------------------------- | ---------------------------------- |
+| `appName`                                                | Displayed in header, footer, title |
+| `headline` / `description`                               | Hero section text (HTML allowed)   |
+| `iosLink` / `androidLink`                                | App Store / Google Play URLs       |
+| `socialLinks`                                            | Instagram, X, TikTok, Facebook     |
+| `feature_list`                                           | Feature cards on homepage          |
+| `supportCategories`                                      | Support page structure & articles  |
+| `blogView`                                               | Blog posts                         |
+| `updatesView`                                            | Changelog / update entries         |
+| `privacyPolicyEffectiveDate` / `termsOfUseEffectiveDate` | Shown on legal pages               |
 
 ## Credits
 
